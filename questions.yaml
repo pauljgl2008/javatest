@@ -1,0 +1,70 @@
+¿ Cuál es el propósito del método public static void main en un programa Java?
+Propósito de public static void main en Java: Es el punto de entrada del programa donde comienza la ejecución.
+
+¿ Cuál es la diferencia entre System.out.println y System.err.println?
+Diferencia entre System.out.println y System.err.println: El primero es para mensajes normales, el segundo para mensajes de error.
+
+¿ Qué es un interface en Java?
+Interface en Java: Define un conjunto de métodos que otras clases deben implementar.
+
+¿ Cuándo usarías una clase abstract en lugar de una interface?
+Clase abstracta vs. interface: La primera proporciona implementación y la segunda define un contrato.
+
+¿ Cuáles son las diferencias entre un public método y protected uno?
+Diferencias entre métodos públicos y protegidos: Public es accesible desde cualquier lugar, protegido solo en clases relacionadas.
+
+¿ Qué es una static variable?
+Static variable: Variable compartida por todas las instancias de una clase.
+
+¿ Qué es un Exception en Java?
+Exception en Java: Representa errores o situaciones excepcionales durante la ejecución.
+
+¿Es una buena práctica atrapar un RuntimeException?
+Capturar RuntimeException: Generalmente no es recomendado, se usa para errores no recuperables.
+
+¿Cuál es la palabra clave que se debe utilizar en la firma de un método para permitir que no se detecte una exception en este método?
+Palabra clave para excepciones no capturadas: throws en la firma del método.
+
+¿Cuál es la última versión de Java?
+Última versión de java: Java 20 - año 2023
+
+¿Cuál es el propósito de un garbage collector?
+Propósito de garbage collector: Gestiona automáticamente la memoria liberando objetos no utilizados.
+
+¿Cuál es la diferencia entre a HashSety a TreeSet?
+Diferencia entre HashSet y TreeSet: El primero no mantiene orden, el segundo mantiene orden ascendente.
+
+¿ Qué Thread método se llama cuando se inicia un hilo?
+Método de inicio de hilo: Se llama run, pero debe iniciarse con start.
+
+¿ Es posible actualizar un objeto String (sin utilizar la introspección)?
+Actualizar un objeto String: Los Strings son inmutables, crea uno nuevo para cambios.
+
+¿Cuál es el contrato entre los métodos equals y hashcode?
+Contrato entre equals y hashCode: Si dos objetos son iguales, sus códigos hash deben ser iguales, pero no siempre es cierto.
+
+¿Quién es James Gosling?
+James Gosling: Uno de los creadores de Java, conocido como "el padre de Java".
+
+¿Qué son la complejidad del tiempo y el espacio?
+Complejidad Temporal: Cuánto tiempo tarda un problema en resolverse, dependiendo de su tamaño.
+Complejidad Espacial: Cuánta memoria se necesita para resolver un problema, dependiendo de su tamaño.
+
+¿Qué es la notación O?
+Notación O:
+Es una forma de decir cuán rápido o lento es un algoritmo.
+Nos da una idea de cuánto tiempo llevará un algoritmo a medida que el problema se hace más grande.
+
+Da el nombre de 3 algoritmos de clasificación y explica su lógica.
+Algoritmos de Clasificación y Cómo Funcionan:
+Bubble Sort: Compara elementos y los cambia de lugar hasta que estén ordenados.
+Selection Sort: Encuentra el más pequeño y lo coloca en su posición correcta.
+Insertion Sort: Toma elementos uno por uno y los coloca en la posición correcta en una lista ordenada.
+
+Arquitectura Hexagonal:
+La arquitectura hexagonal en Java es una forma de organizar el código de una aplicación para que sea fácil de entender y mantener. Imagina que tu aplicación es como una isla en el centro, rodeada de un "océano" de cosas externas como bases de datos, servicios web, interfaces de usuario, etc.
+
+El "núcleo" de tu aplicación contiene la lógica principal.
+Los "puertos" son como puentes que conectan tu núcleo con el mundo exterior. Representan cómo tu aplicación se comunica con cosas externas.
+Los "adaptadores" son como traductores que hacen que las cosas externas sean comprensibles para tu núcleo y viceversa.
+Esta separación ayuda a que tu código sea más limpio y flexible. Puedes cambiar las cosas externas sin afectar la lógica principal de tu aplicación, y viceversa. En resumen, la arquitectura hexagonal en Java es una forma inteligente de organizar tu código para que sea más fácil de trabajar y mantener.
