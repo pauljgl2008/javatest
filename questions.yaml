@@ -1,3 +1,32 @@
+H2: motor de base de datos integrada de Spring que se puede desplegar en memoria
+Entidades JPA:
+Repository: extienden de JPARepository
+
+Spring Data:
+Módulo de acceso a datos de Spring
+Soporte SQL y NoSQL
+Autoconfiguración con los starters
+Drivers y datos de conexión
+Fuentes de datos según perfil
+Solo un datasource autoconfigurado
+
+patrón repositorio:
+mediación entre dominio y datos
+colecciones en memoria
+persistencia transparente
+implementar casos de uso dle negocio
+
+patron DAO:
+Data Access Object
+abstracción cercana a las tablas
+usado por el repositorio
+ideales para acceso a los datos
+
+XML: para describir los datos
+SOAP: para transferir los datos
+WSDL: para describir los servicios disponibles
+UDDI: para listar los servicios disponibles
+
 ¿ Cuál es el propósito del método public static void main en un programa Java?
 Propósito de public static void main en Java: Es el punto de entrada del programa donde comienza la ejecución.
 
